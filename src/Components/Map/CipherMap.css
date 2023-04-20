@@ -1,0 +1,39 @@
+
+.cipherMap {
+  width: 95vw;
+  background-color: #F2F5FA;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.contribution-graph {
+  width: 100%;
+}
+
+
+.react-calendar-heatmap .react-calendar-heatmap-month-label {
+  font-size: 0.7rem;
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-weekday-label {
+  font-size: 0.7rem;
+}
+
+ .color-empty {
+  fill: greenyellow;
+}
+
+.color-single {
+  fill: green;
+} 
+
+.color-zero {
+  fill: #fff
+}
+
+.cipherMap > h1{
+  letter-spacing: 1.5px;
+  color: #242424;
+  font-weight: 700;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,11 @@
+.profileDetails {
+    background-color: #F2F5FA;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.profileDetails__Wrapper {
+    padding: 30px
+}
+
+
