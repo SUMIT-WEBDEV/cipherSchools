@@ -13,12 +13,7 @@ app.use(express.static(staticPath));
 
 require("dotenv").config();
 
-app.use(
-  cors({
-    origin: ["http://localhost:3000"],
-    credentials: true,
-  })
-);
+app.use(cors());
 app.use(express.json());
 
 const uri = process.env.ATLAS_URI;
