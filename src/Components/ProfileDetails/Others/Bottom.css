@@ -1,0 +1,162 @@
+.bottom {
+    border-bottom: 0.5px solid rgba(10,30,50,.1);
+    width: 95vw; 
+    position: relative;
+}
+
+.Bottom__Text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Bottom__Text > h1 {
+    letter-spacing: 1.5px;
+    color: #242424;
+    font-weight: 700;
+}
+
+.bottom__First {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.bottom__First > li {
+    list-style: none;
+    line-height: 0px;
+    flex-basis: calc(50% - 5px);
+}
+
+.bottom__First > li >p{
+    font-size: 1.6rem;
+}
+
+.bottomFirst__Input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.bottomFirst__Input >input{
+    font-size: 1.4rem;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-left: 10px;
+
+    /* box-sizing: border-box; */
+}
+
+.bottom__Password {
+    border-bottom: 0.5px solid rgba(10,30,50,.1);
+}
+
+.bottom__prof{
+    border-bottom: 0.5px solid rgba(10,30,50,.1);
+}
+
+.password {
+    flex-basis: calc(100% - 5px) !important;
+}
+
+/* --------------modal------------ */
+
+.password__Modal {
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 5px 8px 0px rgba(0,0,0,0.14), 0px 1px 14px 0px rgba(0,0,0,0.12);   
+}
+
+.passwordModal__Wrapper > p {   
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: 0px;
+    color: grey;
+    padding-bottom: 7px
+}
+
+.passwordModal__Wrapper > input {   
+    font-size: 1.5rem;
+    width: 350px;
+    margin: 0px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 10px; 
+    background-color: #F2F5FA;
+    outline: none;
+    padding: 10px
+}
+
+/* --------------Interest------------ */
+
+.modal__Interest {
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 5px 8px 0px rgba(0,0,0,0.14), 0px 1px 14px 0px rgba(0,0,0,0.12);   
+}
+
+.model__divs {
+    display: flex;
+}
+
+.model__divs > p {   
+    font-size: 1.4rem;
+    width: 140px;
+    margin: 0px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 10px; 
+    background-color: #F2F5FA;
+    outline: none;
+    padding: 10px;
+    margin: 5px 10px 5px 10px
+}
+
+
+
+
+@media screen and (max-width: 875px) {
+    .bottom__First > li {
+        list-style: none;
+        line-height: 0px;
+        /* width: 28%; */
+        flex-basis: calc(100% - 1px);
+    
+    }
+
+    .bottomFirst__Input > input{
+        font-size: 1.4rem;
+        outline: none;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .Bottom__Text {
+        width: 95%
+    }
+    
+}

@@ -4,6 +4,7 @@
   background-color: #F2F5FA;
   box-sizing: border-box;
   padding-top: 20px;
+  border-bottom: 0.5px solid rgba(10,30,50,.1);
 }
 
 .contribution-graph {

@@ -1,9 +1,25 @@
 * {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 .app{
-  position: relative;
-  overflow: hidden;
+  /* position: relative; */
 }
 
+button{
+  align-items: center;
+  background: #F3912E;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+  height: 28px;
+  justify-content: center;
+  line-height: 1;
+  outline: none;
+  transition: .15s ease;
+  width: 80px;
+}

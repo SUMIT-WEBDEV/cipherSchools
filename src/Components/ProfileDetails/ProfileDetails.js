@@ -1,8 +1,9 @@
 import React from "react";
 import "./ProfileDetails.css";
 import About from "../About/About";
-import Social from "../Social/Social";
+import Social from "./Social/Social";
 import CipherMap from "../Map/CipherMap";
+import Bottom from "./Others/Bottom";
 
 function ProfileDetails() {
   return (
@@ -16,7 +17,9 @@ function ProfileDetails() {
         <div>
           <Social />
         </div>
-        <div>{/* Profesional Information */}</div>
+        <div>
+          <Bottom />
+        </div>
         <div>{/* PASSWORD & SECURITY */}</div>
       </div>
     </div>
