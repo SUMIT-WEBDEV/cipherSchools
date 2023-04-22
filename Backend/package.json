@@ -4,6 +4,7 @@
   "description": "cipherschool backend page for internship",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sumit",
